@@ -2,24 +2,12 @@ import os
 
 
 class Config:
-
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")]
-    MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 2))
-    MAX_TRIM_DURATION = int(os.environ.get("MAX_TRIM_DURATION", 600))
-    TRACK_CHANNEL = int(os.environ.get("TRACK_CHANNEL", False))
-    SLOW_SPEED_DELAY = int(os.environ.get("SLOW_SPEED_DELAY", 5))
-    HOST = os.environ.get("HOST", "")
-    TIMEOUT = int(os.environ.get("TIMEOUT", 60 * 30))
-    DEBUG = bool(os.environ.get("DEBUG"))
-    WORKER_COUNT = int(os.environ.get("WORKER_COUNT", 20))
-    IAM_HEADER = os.environ.get("IAM_HEADER", "")
-
+  API_ID = '8962397'
+API_HASH = '0336e890a385149db77821a136a7fce3'
+BOT_TOKEN = '5069937975:AAGMcqS8SZSLzIGO6ChxS5oGBdw1FRQ92U0'
+LOG_CHANNEL = '-1001536980778'
+DATABASE_URL ='mongodb+srv://Izazkhan:izazkhan@cluster0.hlltt.mongodb.net/project0?retryWrites=true&w=majority
+AUTH_USERS = '1928904042'
     COLORS = [
         "white",
         "black",
